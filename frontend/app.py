@@ -1,6 +1,6 @@
 import streamlit as st
 import requests
-
+import os
 
 BACKEND_URL = os.getenv("BACKEND_URL", "http://localhost:8000")
 st.set_page_config(page_title="Mini AI Chat", layout="wide")
